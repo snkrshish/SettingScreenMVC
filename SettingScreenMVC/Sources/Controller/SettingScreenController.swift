@@ -1,10 +1,18 @@
 import UIKit
 
-class SettingScreenController: UIViewController {
+final class SettingScreenController: UIViewController {
+
+    var model: SettingScreenModel?
+
+    private var settingScreenView: SettingScreenView? {
+        guard isViewLoaded else { return nil }
+        return view as? SettingScreenView
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        model = SettingScreenModel()
+        view = SettingScreenView()
     }
 }
 

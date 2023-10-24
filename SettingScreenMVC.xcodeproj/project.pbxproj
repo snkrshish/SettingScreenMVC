@@ -64,8 +64,8 @@
 		441BAF962AE78F1500153213 /* SettingScreenMVC */ = {
 			isa = PBXGroup;
 			children = (
-				441BAFAC2AE78F2F00153213 /* Resources */,
 				441BAFAB2AE78F2200153213 /* Sources */,
+				441BAFAC2AE78F2F00153213 /* Resources */,
 			);
 			path = SettingScreenMVC;
 			sourceTree = "<group>";
@@ -73,8 +73,8 @@
 		441BAFAB2AE78F2200153213 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				441BAFB12AE78F7E00153213 /* View */,
 				441BAFB02AE78F7100153213 /* Model */,
+				441BAFB12AE78F7E00153213 /* View */,
 				441BAFB22AE78F8300153213 /* Controller */,
 				441BAFAE2AE78F6300153213 /* App */,
 			);
