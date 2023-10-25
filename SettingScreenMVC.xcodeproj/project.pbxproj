@@ -17,6 +17,7 @@
 		441BAFBA2AE7905D00153213 /* SettingScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BAFB92AE7905D00153213 /* SettingScreenModel.swift */; };
 		441BAFBD2AE7907200153213 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 441BAFBC2AE7907200153213 /* SnapKit */; };
 		441BAFBF2AE7907200153213 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 441BAFBE2AE7907200153213 /* SnapKit-Dynamic */; };
+		441BAFC12AE805B500153213 /* SettingScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441BAFC02AE805B500153213 /* SettingScreenTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		441BAFB42AE7903B00153213 /* SettingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreen.swift; sourceTree = "<group>"; };
 		441BAFB62AE7904E00153213 /* SettingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenView.swift; sourceTree = "<group>"; };
 		441BAFB92AE7905D00153213 /* SettingScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenModel.swift; sourceTree = "<group>"; };
+		441BAFC02AE805B500153213 /* SettingScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingScreenTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +66,8 @@
 		441BAF962AE78F1500153213 /* SettingScreenMVC */ = {
 			isa = PBXGroup;
 			children = (
-				441BAFAC2AE78F2F00153213 /* Resources */,
 				441BAFAB2AE78F2200153213 /* Sources */,
+				441BAFAC2AE78F2F00153213 /* Resources */,
 			);
 			path = SettingScreenMVC;
 			sourceTree = "<group>";
@@ -73,8 +75,8 @@
 		441BAFAB2AE78F2200153213 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				441BAFB12AE78F7E00153213 /* View */,
 				441BAFB02AE78F7100153213 /* Model */,
+				441BAFB12AE78F7E00153213 /* View */,
 				441BAFB22AE78F8300153213 /* Controller */,
 				441BAFAE2AE78F6300153213 /* App */,
 			);
@@ -121,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				441BAFB62AE7904E00153213 /* SettingScreenView.swift */,
+				441BAFC02AE805B500153213 /* SettingScreenTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				441BAFC12AE805B500153213 /* SettingScreenTableViewCell.swift in Sources */,
 				441BAFB72AE7904E00153213 /* SettingScreenView.swift in Sources */,
 				441BAFB52AE7903B00153213 /* SettingScreen.swift in Sources */,
 				441BAFBA2AE7905D00153213 /* SettingScreenModel.swift in Sources */,
