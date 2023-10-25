@@ -2,7 +2,7 @@ import UIKit
 
 final class SettingScreenController: UIViewController {
 
-    var model: SettingScreenModel?
+    var models: SettingScreenModel?
 
     private var settingScreenView: SettingScreenView? {
         guard isViewLoaded else { return nil }
@@ -11,8 +11,22 @@ final class SettingScreenController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        model = SettingScreenModel()
+        models = SettingScreenModel()
         view = SettingScreenView()
+        view.backgroundColor = .systemBackground
+        setupNavigationBar()
+        configurateView()
+    }
+    private func setupNavigationBar() {
+        title = "Settings"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.backgroundColor = .systemBackground
+    }
+
+    //MARK: - Configurate
+
+    func configurateView() {
+        guard let models = models?.createModel() else { return }
+        settingScreenView?.configurateView(models: models)
     }
 }
-
